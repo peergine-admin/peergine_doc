@@ -16,9 +16,7 @@ ID：32
 
 说明：打开一个白板共享对象。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Wnd){3664687}
 
@@ -36,9 +34,7 @@ ID：33
 
 说明：关闭一个白板共享对象。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：空
 
@@ -54,17 +50,11 @@ ID：34
 
 说明：设置绘图的参数。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Shape){1}(Color){223344}(Width){3}(Type){0}
 
-Shape：图形的类型。参考“
-
-常量：图形的类型
-
-”章节
+Shape：图形的类型。参考“[常量：图形的类型](#4)”章节
 
 Color：线条的颜色，RGB格式。
 
@@ -84,17 +74,11 @@ ID：35
 
 说明：设置不同图形的鼠标光标。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Shape){1}(Path){c:\temp\pen.cur}
 
-Shape：图形的类型。参考“
-
-常量：图形的类型
-
-”章节
+Shape：图形的类型。参考“[常量：图形的类型](#4)”章节
 
 Path：光标文件的路径，文件名的后缀必须为“.cur”。
 
@@ -110,9 +94,7 @@ ID：36
 
 说明：保存白板上所写画的内容到图片里。
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Path){c:\temp\xxxx.png}
 
@@ -132,9 +114,7 @@ ID：37
 
 说明：从文件打开一个图片显示在白板上。
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Path){c:\temp\xxxx.png}
 

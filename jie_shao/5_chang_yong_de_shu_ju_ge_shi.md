@@ -5,9 +5,9 @@
 Peergine 系统中使用的地址格式为：X:X:X:X:Port:Info，其中4个X分别为32bit整数、HEX格式，Port为端口号，Info为选项信息(未使用)。此地址格式可以表示IPV4的地址端口和IPV6的地址端口。IPV4的地址端口样例：0:0:0:7F000001:80:0或0:0:0:127.0.0.1:80:0。IPV6的地址端口样例：FE800000:0:01B05996:42CFB70D:80:0。
 
 IPV4和IPV6地址格式到Peergine地址格式的对应关系如下图：
-
+![](../assets/image013.png)
 IPV4地址到Peergine地址的对应关系
-
+![](../assets/image014.png)
 IPV6地址到Peergine地址的对应关系
 
 ### 2) 时间的格式 {#2}

@@ -44,19 +44,13 @@ ID：32
 
 说明：打开一个媒体流直播对象。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Source){1}(Media){1}(Delay){3000}(CacheSize){256}(MaxPart){1} (TimerVal){3}(Param){}
 
 Source：指定本节点是否为源节点。1为源(播放)节点，0为收看节点。
 
-Media：指定媒体流的类型。参考“
-
-常量：媒体流的类型
-
-”章节
+Media：指定媒体流的类型。参考“[常量：媒体流的类型](#4)”章节
 
 Delay：接收媒体流的缓冲延时时间（毫秒）。只有作为源节点时，才需要指定此参数。
 
@@ -80,9 +74,7 @@ ID：33
 
 说明：关闭一个媒体流直播对象
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：空
 
@@ -98,17 +90,11 @@ ID：34
 
 说明：控制媒体流的播放和收看。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Action){1}(Param){0}
 
-Action：控制动作。参考“
-
-常量：媒体流的控制动作
-
-”章节
+Action：控制动作。参考“[常量：媒体流的控制动作](#5)”章节
 
 Param：控制参数（未使用）。
 
@@ -124,11 +110,7 @@ ID：35
 
 说明：获取或上报媒体流传输的状态。
 
-交互方式：
-
-方式6
-
-或[方式8](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#9-8)
+交互方式：[方式6](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#7-6)或[方式8](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#9-8)
 
 发送请求参数：空
 
@@ -154,9 +136,7 @@ ID：36
 
 说明：录制媒体流到avi、mov或mp4文件中。只有作为收看节点时，才能录制。
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Path){c:\temp\xxxx.avi}(HasVideo){0}(HasAudio){0}
 
@@ -180,9 +160,7 @@ ID：37
 
 说明：拍摄视频快照。
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Path){c:\temp\xxxx.jpg}
 
@@ -202,9 +180,7 @@ ID：38
 
 说明：强制从指定的节点获取媒体流。
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Flag){0}(Action){1}(Peer){abc}
 
@@ -230,9 +206,7 @@ ID：39
 
 说明：上报视频发送状态的统计信息。
 
-交互方式：
-
-方式8
+交互方式：[方式8](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：无此操作
 

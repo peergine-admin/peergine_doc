@@ -32,9 +32,7 @@ ID：32
 
 说明：上传文件
 
-交互方式：
-
-方式1
+交互方式：[方式1](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#2-1)
 
 发送请求参数：样例：(Path){c:\temp\xxxx.txt}(PeerPath){xxxx.txt}(TimerVal){3}(Offset){0}(Size){0}
 
@@ -70,9 +68,7 @@ ID：33
 
 说明：下载文件
 
-交互方式：
-
-方式1
+交互方式：[方式1](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#2-1)
 
 发送请求参数：样例：(Path){c:\temp\xxxx.txt}(PeerPath){xxxx.txt}(TimerVal){3}(Offset){0}(Size){0}
 
@@ -108,11 +104,7 @@ ID：34
 
 说明：查询或上报文件传输的状态
 
-交互方式：
-
-方式6
-
-或[方式8](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#9-8)
+交互方式：[方式6](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#7-6)或[方式8](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#9-8)
 
 发送请求参数：空
 

@@ -68,9 +68,7 @@ ID：32
 
 说明：打开音频传输会话
 
-交互方式：
-
-方式1
+交互方式：[方式1](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#2-1)
 
 发送请求参数：样例：(Code){0}(Mode){0}
 
@@ -110,9 +108,7 @@ ID：34
 
 说明：调节或查询扬声器和麦克风的音量。当Type参数为0(扬声器)时，此操作影响当前音频对象的Peer参数指定的对象的放音音量。当Type参数为1(麦克风)时，此操作影响全局的录音音量。
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Peer){}(Action){0}(Type){1}(Volume){0}(Max){0}(Min){0}
 
@@ -200,9 +196,7 @@ ID：37
 
 说明：录音到指定的avi、mov或mp4文件
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Peer){NodeA}(Path){c:\temp\xxxx.avi}(HasVideo){0}
 

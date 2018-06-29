@@ -18,10 +18,6 @@
 
 控件提供了本地HTTP服务器功能，可以在节点本地的私网地址或环回地址上启动一个HTTP服务器，允许HTTP客户端在本地通过HTTP方式访问Peergine的内容。文件分块共享类能够把正在传输的文件数据实时转发到本地HTTP服务器上，提供给HTTP客户端访问。
 
-使用HttpConfig命令启动本地HTTP服务器，请参考“
-
-控件的命令列表
-
-”章节。调用PG_METH_SHARE_Open方法打开文件分块共享对象时，如果指定了HttpURL参数，则该文件分块共享对象在本地HTTP服务器上建立一个转发关联。当获取到数据块时，会实时转发到本地HTTP服务器上。HTTP客户端可以使用HttpURL参数指定的URL从HTTP服务器下载共享文件。
+使用HttpConfig命令启动本地HTTP服务器，请参考“[控件的命令列表](..\jie_dian_gong_neng_lei_de_bian_cheng_can_80033a\11_pgclasslive_7c7b3a.md#5)”章节。调用PG_METH_SHARE_Open方法打开文件分块共享对象时，如果指定了HttpURL参数，则该文件分块共享对象在本地HTTP服务器上建立一个转发关联。当获取到数据块时，会实时转发到本地HTTP服务器上。HTTP客户端可以使用HttpURL参数指定的URL从HTTP服务器下载共享文件。
 
 这个功能的用途是方便实现媒体流文件的一边下载一边播放。使用顺序传输模式获取媒体流文件并实时转发到本地HTTP服务器上，然后使用具有网络播放功能的播放器播放该媒体流文件的URL。

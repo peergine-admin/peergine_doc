@@ -44,9 +44,7 @@ ID：32
 
 说明：登录到服务器。登录成功后，系统会自动创建本地节点的自身对象，对象名就是用户名。
 
-交互方式：
-
-方式1
+交互方式：[方式1](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#2-1)
 
 发送请求参数：样例：(User){NodeA}(Pass){****}(Param){}
 
@@ -110,9 +108,7 @@ ID：34
 
 说明：根据节点对象的名称解析该节点的地址、代理地址和登录状态。此方法只有在组网中有多个登录服务器节点组成集群功能时使用。如果请求解析的节点和被解析的节点都登录到同一个登录服务器节点上，则此方法不会被调用。系统在控件内部处理完解析请求并返回应答，不会上报到应用程序。当请求解析的节点和被解析的节点登录在不同的登录服务器节点上时，系统调用此方法把请求上报给应用程序。由应用程序通过集群组网从被解析的节点所登录的登录服务器节点获取解析结果，并返回给请求解析的节点。
 
-交互方式：
-
-方式3
+交互方式：[方式3](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#4-3)
 
 发送请求参数：无此操作（控件内部自行发送请求）
 
@@ -136,9 +132,7 @@ ID：35
 
 说明：对指定节点对象执行一个RPC操作
 
-交互方式：
-
-方式1
+交互方式：[方式1](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#2-1)
 
 发送请求参数：任意字符串，内容和格式由用户定义
 
@@ -170,9 +164,7 @@ ID：37
 
 说明：设置节点对象的自身地址和代理地址
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Addr){0:0:0:192.168.1.6:1234:0}(Proxy){0:0:0:192.168.1.1:4567:0}
 
@@ -192,9 +184,7 @@ ID：38
 
 说明：获取节点对象的自身地址、代理地址和隧道地址。
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：空
 
@@ -226,9 +216,7 @@ ID：39
 
 说明：产生数据的签名。
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Data){01234567890}(Value){}
 
@@ -252,9 +240,7 @@ ID：40
 
 说明：校验数据的签名。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Data){01234567890}(Value){YHEm82O44Vhtn05wxue2V4w0TOTXBSZVu9u9Imip1S4=}
 
@@ -274,9 +260,7 @@ ID：41
 
 说明：检查节点的状态信息。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Check){}(Value){}(Opion){}
 
@@ -298,9 +282,7 @@ ID：42
 
 说明：搜索同一个局域网内的P2P节点。
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Timeout){3}
 
@@ -322,9 +304,7 @@ ID：43
 
 说明：代理节点登录到服务器。登录成功后，系统会自动创建代理节点对象，对象名就是用户名。
 
-交互方式：
-
-方式1
+交互方式：[方式1](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(User){AgentUser1}(Pass){****}(Param){}
 
@@ -356,9 +336,7 @@ ID：44
 
 说明：代理节点注销登录。注销后，系统会自动删除代理节点对象。
 
-交互方式：
-
-方式4
+交互方式：[方式4](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(User){AgentUser1}
 
@@ -378,9 +356,7 @@ ID：45
 
 说明：给代理Peer节点发送一个消息。
 
-交互方式：
-
-方式4
+交互方式：[方式4](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Peer){AgentUser1}(Data){123456abcdef}
 
@@ -448,9 +424,7 @@ ID：48
 
 说明：设置指定Peer节点对各个业务类的访问权限。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Class){PG_CLASS_Video}(Ctrl){0}
 

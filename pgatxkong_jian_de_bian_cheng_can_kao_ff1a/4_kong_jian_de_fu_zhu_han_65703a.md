@@ -36,11 +36,7 @@ pgAtx.ObjectRequest(“VideoPreview”, 32, sInEle, “OpenPreview”);
 
 **参数：**
 
-sCmd：命令名，参考“
-
-控件的命令列表
-
-”章节。
+sCmd：命令名，参考“[控件的命令列表](..\jie_dian_gong_neng_lei_de_bian_cheng_can_80033a\11_pgclasslive_7c7b3a.md#5)”章节。
 
 sParam：命令参数
 

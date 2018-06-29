@@ -76,9 +76,7 @@ ID：2
 
 说明：设置通信对象的扩展选项参数。各个通信对象类根据实际需要实现此方法。。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Item){1}(Value){}
 
@@ -98,9 +96,7 @@ ID：3
 
 说明：获取通信对象的扩展选项参数。各个通信对象类根据实际需要实现此方法。
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Item){1}
 

@@ -62,9 +62,7 @@ ID：32
 
 说明：修改该组的成员
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Action){0}(PeerList){(Peer1){}(Peer2){}}
 

@@ -1,6 +1,6 @@
 # Summary
 
-* [peergine_manual_v1.28.0](README.md)
+* [peergine_manual_v1.28.0 ](README.md)
 * [介绍](jie_shao\README.md)
   * [1. 关于Peergine](jie_shao\1_guan_yu_peergine.md)
   * [2. Peergine的功能特性](jie_shao\2_peerginede_gong_neng_te_xing.md)

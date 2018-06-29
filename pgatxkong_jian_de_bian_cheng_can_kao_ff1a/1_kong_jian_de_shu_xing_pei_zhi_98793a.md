@@ -4,15 +4,7 @@
 
 **描述：**
 
-指定使能pgATX控件的哪些功能。在缺省情况下，可以使用“
-
-控件的OML解析器函数
-
-”和“
-
-控件的辅助函数
-
-”。
+指定使能pgATX控件的哪些功能。在缺省情况下，可以使用“[控件的OML解析器函数](3_kong_jian_de_oml_jie_xi_qi_han_65703a.md)”和“[控件的辅助函数](..\jie_dian_gong_neng_lei_de_bian_cheng_can_80033a\11_pgclasslive_7c7b3a.md#4)”。
 
 **参数：**
 

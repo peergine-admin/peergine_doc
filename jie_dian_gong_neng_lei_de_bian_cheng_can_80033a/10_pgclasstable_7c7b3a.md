@@ -26,9 +26,7 @@ ID：32
 
 说明：初始化数据表。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(MaxRec){256}(FldSize){6}(Param){}
 
@@ -50,17 +48,11 @@ ID：33
 
 说明：强制同步数据表。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Action){1}(Param){}
 
-Action：同步的动作，参考“
-
-常量：强制同步动作
-
-”
+Action：同步的动作，参考“[常量：强制同步动作](#4)”
 
 Param：同步的参数。
 
@@ -76,9 +68,7 @@ ID：34
 
 说明：在指定的字段上建立数据表的索引。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(SortMode){1}(FieldID){0}
 
@@ -98,9 +88,7 @@ ID：35
 
 说明：在数据表中插入一条记录
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(ValList){(0){aaaa}(1){bbb}(2){ccccccc}}
 
@@ -118,9 +106,7 @@ ID：36
 
 说明：从数据表中删除一条或多条记录。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(RecID){0}(RecSize){1}(Cond){(Operator){0}(FieldID){0}(Value){aaaa}}&quot;
 
@@ -142,9 +128,7 @@ ID：37
 
 说明：修改一条记录的字段值。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(RecID){0}(Cond){(Operator){0}(FieldID){0}(Value){aaaa}}(ValList){(0){xxx}}
 
@@ -166,9 +150,7 @@ ID：38
 
 说明：查询数据表。查询之后通过PG_METH_TABLE_Report方法上报查询结果。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(RecID){0}(RecSize){3}(Cond){(Operator){0}(FieldID){0}(Value){aaabbb}} (FldIDList){(0)(1)(2)}&quot;
 
@@ -324,11 +306,7 @@ ID：8
 
 ### 6) 说明：文件传输模式 {#6}
 
-对等数据表支持传输文件功能，在创建数据表对象时通过PG_ADD_TABLE_File选项来使能。使能文件传输模式后，PG_METH_TABLE_Init方法的Param参数用来传递文件缓冲区的名称，该参数为OML格式，样例为：(Cache){MyFileCache}。文件缓冲区用
-
-CacheSetDir
-
-命令来开启。由于该参数为OML格式，包含OML标记字符，所以要用omlEncode()函数来编码。代码示例(JavaScript)如下：
+对等数据表支持传输文件功能，在创建数据表对象时通过PG_ADD_TABLE_File选项来使能。使能文件传输模式后，PG_METH_TABLE_Init方法的Param参数用来传递文件缓冲区的名称，该参数为OML格式，样例为：(Cache){MyFileCache}。文件缓冲区用[CacheSetDir](..\pgatxkong_jian_de_bian_cheng_can_kao_ff1a\5_kong_jian_de_ming_ling_lie_88683a.md#11-cachesetdir)命令来开启。由于该参数为OML格式，包含OML标记字符，所以要用omlEncode()函数来编码。代码示例(JavaScript)如下：
 
 pgAtx.utilCmd(“CacheSetDir”, “(Name){MyFileCache}(Dir){c:\\Peergine\\FileCache}”);
 

@@ -68,9 +68,7 @@ ID：32
 
 说明：打开视频传输会话
 
-交互方式：
-
-方式1
+交互方式：[方式1](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#2-1)
 
 发送请求参数：样例：(Code){0}(Mode){1}(Rate){100}(Wnd){(PosX){0}(PosY){0}(SizeX){80} (SizeY){60}(Handle){237654}}
 
@@ -118,9 +116,7 @@ ID：34
 
 说明：调整当前输出视频的位置和尺寸或者把当前窗口中的视频移到另外一个窗口中显示。改变坐标参数时，调整视频的位置和尺寸。改变窗口的句柄时，转移视频到另外一个窗口中显示。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Peer){NodeA}(Wnd){(PosX){0}(PosY){0}(SizeX){40}(SizeY){30} (Handle){ 237654}}
 
@@ -140,9 +136,7 @@ ID：35
 
 说明：加入指定节点的视频传输到会议中，此方法只能在会议模式中使用。
 
-交互方式：
-
-方式1
+交互方式：[方式1](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#2-1)
 
 发送请求参数：样例：(Peer){NodeA}(Wnd){(PosX){0}(PosY){0}(SizeX){40}(SizeY){30} (Handle){237654}}
 
@@ -184,9 +178,7 @@ ID：37
 
 说明：抓拍指定节点视频的照片到指定的jpg文件
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Peer){NodeA}(Path){d:\Pic1.jpg}
 
@@ -210,9 +202,7 @@ ID：38
 
 说明：录制指定节点的视频到指定的avi、mov或mp4文件。
 
-交互方式：
-
-方式5
+交互方式：[方式5](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Peer){NodeA}(Path){c:\temp\xxxx.avi}(HasAudio){0}
 
@@ -238,9 +228,7 @@ ID：39
 
 说明：暂停或者继续视频发送。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：样例：(Peer){NodeA}(Local){1}(Remote){0}
 
@@ -262,9 +250,7 @@ ID：40
 
 说明：上报视频发送状态的统计信息。
 
-交互方式：
-
-方式8
+交互方式：[方式8](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#6-5)
 
 发送请求参数：无此操作
 

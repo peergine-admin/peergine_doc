@@ -20,9 +20,7 @@ ID：32
 
 说明：打开文件分块共享对象。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：样例：(Path){c:\temp\xxxxx.avi}(HttpURL){}(Hash){}(FileSize){}(BlockSize){0} (TimerVal){3}
 
@@ -50,9 +48,7 @@ ID：33
 
 说明：关闭文件分块共享对象。
 
-交互方式：
-
-方式7
+交互方式：[方式7](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#8-7)
 
 发送请求参数：空
 
@@ -68,11 +64,7 @@ ID：34
 
 说明：获取共享文件的信息。
 
-交互方式：
-
-方式6
-
-或[方式8](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#9-8)
+交互方式：[方式6](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#7-6)或[方式8](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#9-8)
 
 发送请求参数：空
 
@@ -98,11 +90,7 @@ ID：35
 
 说明：获取共享文件的传输状态。
 
-交互方式：
-
-方式6
-
-或[方式8](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#9-8)
+交互方式：[方式6](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#7-6)或[方式8](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#9-8)
 
 发送请求参数：空
 
@@ -120,11 +108,7 @@ Speed：当前传输的速度（字节/秒）
 
 BlockNum：共享文件的总的块数目
 
-BlockSta：数据块的状态。通过一个OML列表来表示数据块的状态，OML元素的名称是数据块的序号，OML元素的内容是数据块的状态。如果多个连续的数据块的状态相同，合并到一个OML元素中，元素名由这些连续数据块的起始块号和终止块号组成，中间用‘-’号连接。例如：(0-2){1}。状态值参考“
-
-常量：数据块的状态
-
-”章节。
+BlockSta：数据块的状态。通过一个OML列表来表示数据块的状态，OML元素的名称是数据块的序号，OML元素的内容是数据块的状态。如果多个连续的数据块的状态相同，合并到一个OML元素中，元素名由这些连续数据块的起始块号和终止块号组成，中间用‘-’号连接。例如：(0-2){1}。状态值参考“[常量：数据块的状态](#4)”章节。
 
 发送应答参数：无此操作
 
@@ -136,9 +120,7 @@ ID：36
 
 说明：获取共享文件的源节点的数据块传输状态。
 
-交互方式：
-
-方式6
+交互方式：[方式6](..\jie_shao\4_kong_jian_yu_ying_yong_cheng_xu_de_jiao_hu_fang_.md#7-6)
 
 发送请求参数：样例：(Peer){NodeA}(Index){0}
 
